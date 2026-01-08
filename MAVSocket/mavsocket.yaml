@@ -1,0 +1,29 @@
+# mavsocket.yaml
+# 選擇連接方式 [serial / tcp / udp]
+upstream_mode: udp
+
+# serial
+serial_port: /dev/ttyACM0
+serial_baud: 57600
+
+# tcp
+tcp_host: 127.0.0.1
+tcp_port: 14650
+tcp_connect_timeout_s: 2.0
+
+# udp
+udp_rx_ip: 0.0.0.0
+udp_rx_port: 14560
+udp_tx_ip: 127.0.0.1
+udp_tx_port: 14570
+
+# websocket server
+ws_host: 0.0.0.0
+ws_port: 8765
+tx_queue_max: 1000
+rx_queue_max: 2000
+
+# log
+log_dir: ~/Server_logs
+log_file: mavsocket_server.log
+log_level: INFO
