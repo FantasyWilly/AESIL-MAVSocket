@@ -8,14 +8,14 @@ serial_baud: 57600
 
 # tcp
 tcp_host: 127.0.0.1
-tcp_port: 14650
+tcp_port: 14760
 tcp_connect_timeout_s: 2.0
 
 # udp
 udp_rx_ip: 0.0.0.0
 udp_rx_port: 14560
 udp_tx_ip: 127.0.0.1
-udp_tx_port: 14570
+udp_tx_port: 14660
 
 # websocket server
 ws_host: 0.0.0.0
